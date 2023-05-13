@@ -1,11 +1,11 @@
 name: firts task
 
-#on:
-#  push:
-#    branches: [main]
-#    paths:
-#    - 'app.py'
-on: workflow_dispatch
+on:
+  push:
+    branches: [main]
+    paths:
+    - 'app.py'
+#on: workflow_dispatch
 
 jobs:
   check-python-version:
